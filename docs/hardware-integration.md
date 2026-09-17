@@ -14,7 +14,7 @@ The table below is extracted from configuration headers. A signal marked as infe
 | 74HC595 | DS, SHCP, STCP | PB8 / PB9 / PB10 | GPIO bit-bang | Shift data, shift clock, latch |
 | Motor shield | Direction/control | PB12–PB15 | GPIO/shift interface | Enable is documented active-low |
 | Motor shield | PWM channels | PA0–PA3 | TIM2 CH1–CH4 | Verify motor channel mapping |
-| LED matrix | Rows/columns | PORTA / PORTB | GPIO | Exact per-line mapping is not centralized |
+| LED matrix | Rows/columns | STP / 74HC595 | GPIO | Exact per-line mapping is not centralized |
 | IR receiver | Output | PA4 | GPIO/EXTI candidate | Module exists; runtime use requires verification |
 
 ## Power and safety
