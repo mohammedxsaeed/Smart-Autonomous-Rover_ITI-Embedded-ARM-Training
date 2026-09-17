@@ -59,7 +59,3 @@ These values are extracted from the current source and should be rechecked again
 ## Safety Notice
 
 Test with the wheels lifted or motor power disconnected first. The firmware contains software stop logic, but it is not a substitute for a physical emergency stop, current limiting, correct grounding, or a validated power design.
-
-## License
-
-No license file was supplied in the archive. Add a license before distributing the source publicly.
