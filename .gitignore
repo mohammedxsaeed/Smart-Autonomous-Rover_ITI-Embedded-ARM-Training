@@ -1,0 +1,33 @@
+# STM32CubeIDE / Eclipse generated build output
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# Eclipse local metadata (keep .project and .cproject for reproducibility)
+.settings/
+
+# IDE and OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Generated documentation artifacts
+_site/
